@@ -84,3 +84,36 @@ Note: ERC/DRC passing does not guarantee correct component footprints — a foot
 9. Thermal test under expected load.
 
 ## Repository Structure
+DRV8833-PCB/
+├── README.md
+├── Documentation/
+├── Schematic/Motor_Driver_DRV8833.kicad_sch
+├── PCB/Motor_Driver_DRV8833.kicad_pcb
+├── Project/Motor_Driver_DRV8833.kicad_pro
+├── Manufacturing/
+│ ├── Gerbers/
+│ └── Drill/
+├── BOM/BOM.csv
+├── Verification/
+│ ├── ERC_Report/
+│ └── DRC_Report/
+└── Images/
+
+
+## Future Work
+
+- External current-sense resistors
+- nFAULT pull-up option
+- Reverse-polarity and ESD protection
+- Test points for VM, GND, AIN1/2, BIN1/2, FAULT
+- Measured thermal and stall-current data on fabricated hardware
+
+## Tools & References
+
+- **KiCad** — schematic capture, PCB layout, ERC, DRC, Gerber generation
+- **TI DRV8833 Datasheet** — primary reference for pinout, power/thermal requirements, and PowerPAD land pattern
+
+---
+
+*2-layer KiCad PCB · DRV8833 dual H-bridge motor driver · ERC = 0 · DRC = 0*
+
