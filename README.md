@@ -86,17 +86,29 @@ Note: ERC/DRC passing does not guarantee correct component footprints — a foot
 ## Repository Structure
 DRV8833-PCB/
 ├── README.md
+
 ├── Documentation/
+
 ├── Schematic/Motor_Driver_DRV8833.kicad_sch
+
 ├── PCB/Motor_Driver_DRV8833.kicad_pcb
+
 ├── Project/Motor_Driver_DRV8833.kicad_pro
+
 ├── Manufacturing/
+
 │ ├── Gerbers/
+
 │ └── Drill/
+
 ├── BOM/BOM.csv
+
 ├── Verification/
+
 │ ├── ERC_Report/
+
 │ └── DRC_Report/
+
 └── Images/
 
 
